@@ -1,0 +1,138 @@
+body {
+    background-color: #54a0df;
+    font-family: sans-serif;
+}
+
+.heading {
+    margin: 20px;
+}
+
+.main {
+    background-color: white;
+    height: 600px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-add {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #8f49f0;
+    border: none;
+    color: white;
+}
+
+#Subject {
+    width: 78%;
+    height: 30px;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.list {
+    list-style: none;
+}
+
+li {
+    background-color: #2e2e2e;
+    height: 40px;
+    /* margin: 20px; */
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.details {
+    font-size: 30px;
+}
+
+.please {
+    float: right;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.please1 {
+    float: right;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #a45ce9;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    /* left: 0px;
+    right: 0px; */
+    height: 60px;
+    background-color: #c297dd;
+    width: 100%;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.clr {
+    padding: 5px 10px;
+    border: none;
+    background-color: grey;
+    color: white;
+}
+
+.success {
+    background-color: #a45ce9;
+    width: 50%;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.success_cross {
+    position: absolute;
+    right: 10%;
+    top: -12%;
+    font-size: 34px;
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main {
+        width: 35%;
+    }
+    .heading {
+        margin: 30px;
+    }
+}
